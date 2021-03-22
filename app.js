@@ -13,7 +13,7 @@ const contactcontent = "Jag vet inte. ring nån. poolia?"
 const bloggposts = [];
 
 app.get('/', function(req, res) {
-    res.render('index', {bloggposts: bloggposts});
+    res.render('index', {bloggposts: bloggposts.reverse()});
 });
 
 app.get('/about', function(req, res) {
