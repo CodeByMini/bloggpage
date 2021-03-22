@@ -1,0 +1,25 @@
+/* Show it is fixed to the top */
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  }
+
+.center{
+      text-align: center;
+  }
+
+.box{
+    margin: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: #fff;
+}
+.smallbox{
+    margin: 2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    text-align: center;
+    background-color: #fff;
+}
+
